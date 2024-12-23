@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamkin - Web Design, Development, Social Media Management, Graphic Design, Trading, and Web3 Services.">
+    <meta name="keywords" content="Web Design, Web Development, Social Media Management, Graphic Design, Trading, Web3, Portfolio, Hamkin">
+    <meta name="author" content="Hamkin">
+    <title>Hamkin Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Hamkin - Web Design, Development, Social Media Management, Graphic Design, Trading, and Web3 Services.">
+    <meta name="keywords" content="Web Design, Web Development, Social Media Management, Graphic Design, Trading, Web3, Portfolio, Hamkin">
+    <meta name="author" content="Hamkin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Hamkin Portfolio">
+    <meta property="og:description" content="Explore my portfolio for Web Design, Social Media Management, Trading, and Graphic Design.">
+    <meta property="og:image" content="path/to/your-logo.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hamkin Portfolio">
+    <meta name="twitter:description" content="Explore my portfolio for Web Design, Social Media Management, Trading, and Graphic Design.">
+    <meta name="twitter:image" content="path/to/your-logo.jpg">
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="static-header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Hamkin Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <section id="home" class="hero">
+        <h1>Welcome to Hamkin</h1>
+        <p>Delivering excellence in Web Design, Development, Trading, and Web3 Services.</p>
+        <a href="#portfolio" class="btn">Explore Portfolio</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Hamkin, a versatile professional skilled in Web Design, Social Media Management, Trading, and Graphic Design. I help businesses and individuals achieve their goals through creativity and technical expertise.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Design</h3>
+                <p>Creating visually stunning and user-friendly websites tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Trading</h3>
+                <p>Expert trading strategies and insights to help you succeed in financial markets.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Designing impactful visuals that resonate with your audience.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-share-alt"></i>
+                <h3>Social Media Management</h3>
+                <p>Managing and growing your social media presence effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Web Design</h3>
+                <p>Projects showcasing responsive and dynamic website designs.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Graphic Design</h3>
+                <p>Creative designs for brands and marketing campaigns.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Trading Insights</h3>
+                <p>Case studies and strategies that delivered results.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Web3 Projects</h3>
+                <p>Innovative Web3 solutions and blockchain applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <section id="subscribe">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to receive the latest updates and news from Hamkin.</p>
+            <form id="subscribe-form">
+                <input type="email" name="email" placeholder="Enter your email" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <p>&copy; 2024 Hamkin. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/hameed-akinloye" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://web.facebook.com/HamKinTech.Intl/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="http://twitter.com/@akinloye_hameed" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Chatbox Icon -->
+    <div id="chat-icon" onclick="toggleChatbox()">
+        <i class="fas fa-comments"></i>
+    </div>
+    <div id="chatbox">
+        <div class="chatbox-header">Chat with Hamkin</div>
+        <div class="chatbox-messages"></div>
+        <form id="chatbox-form">
+            <input type="text" id="chatbox-input" placeholder="Type your question..." required />
+            <button type="submit">Send</button>
+        </form>
+         <!-- Chatbox Button -->
+    <button id="chatbox-toggle" onclick="toggleChatbox()">Chat with Us</button>
+
+    <!-- Chatbox Container -->
+    <div id="chatbox" class="chatbox">
+        <div class="chatbox-header">
+            <span>Hamkin Support</span>
+            <button class="close-btn" onclick="toggleChatbox()">X</button>
+        </div>
+        <div id="chatbox-messages" class="chatbox-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <form id="chatbox-form" onsubmit="sendMessage(event)">
+            <input type="text" id="chatbox-input" placeholder="Type your message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </div>
+
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
